@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Examination Center</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="exam-container">
+    <h1>Online Examination</h1>
+    <div id="timer">Time Left: <span id="time">10:00</span></div>
+
+    <form id="examForm">
+      <div class="question-container" id="question1">
+        <h3>1. What is the capital of France?</h3>
+        <label>
+          <input type="radio" name="q1" value="A"> A) Berlin
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="B"> B) Paris
+        </label><br>
+        <label>
+          <input type="radio" name="q1" value="C"> C) Madrid
+        </label><br>
+      </div>
+
+      <div class="question-container" id="question2">
+        <h3>2. Who developed the theory of relativity?</h3>
+        <label>
+          <input type="radio" name="q2" value="A"> A) Isaac Newton
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="B"> B) Albert Einstein
+        </label><br>
+        <label>
+          <input type="radio" name="q2" value="C"> C) Nikola Tesla
+        </label><br>
+      </div>
+
+      <div class="question-container" id="question3">
+        <h3>3. What is the largest ocean on Earth?</h3>
+        <label>
+          <input type="radio" name="q3" value="A"> A) Atlantic Ocean
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="B"> B) Indian Ocean
+        </label><br>
+        <label>
+          <input type="radio" name="q3" value="C"> C) Pacific Ocean
+        </label><br>
+      </div>
+
+      <button type="button" id="submitBtn">Submit Exam</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
